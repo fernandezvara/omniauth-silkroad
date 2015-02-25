@@ -17,7 +17,7 @@ describe OmniAuth::Strategies::Silkroad do
 
     it "should have the correct oauth url" do
       instance = subject.new(app, {})
-      expect(instance.client.site).to eq "https://oauth.bqws.io"
+      expect(instance.client.site).to eq "https://oauth-qa.bqws.io"
     end
 
     it "should have the correct authorization url" do
